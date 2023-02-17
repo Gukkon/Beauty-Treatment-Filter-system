@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href=" https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css "
+      rel="stylesheet"
+    />
+    <title>Explore the different products</title>
+  </head>
+  <body>
+    <!-- <header class="flex">
+      <div>
+        <img class="logo" src="simplyanaislogo.png" alt="" />
+      </div>
+
+      <div class="login-details">
+        <i class="fa fa-shopping-cart add-to-crt" aria-hidden="true"></i>
+        <label for="">Email:</label>
+        <input type="email" name="" id="" />
+        <label for="">Password:</label>
+        <input type="password" name="" id="" />
+      </div>
+    </header> -->
+    <!-- Form for inputting booking information -->
+    <div class="form-container">
+      <form class="form-input">
+        <h2>Contact Details</h2>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" />
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" />
+        <br />
+        <label for="age">Age:</label>
+        <input class="age" type="text" name="age" maxlength="2" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+
+        <h2>Gender</h2>
+
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" />
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender" />
+        <br />
+
+        <h2>Pregnant</h2>
+
+        <input type="radio" id="preg-no" value="yes" name="pregnant" />
+        <label for="pregnant">No</label>
+        <input type="radio" id="preg-yes" value="no" name="pregnant" />
+        <label for="pregnant">Yes</label>
+        <br />
+
+        <h3>How far gone?</h3>
+
+        <label for="length">0 - 3 Months</label>
+        <input type="radio" value="onea" name="length" id="first" />
+        <label for="length">3+ Months</label>
+        <input type="radio" value="twoa" name="length" id="second" />
+
+        <h2>Medical Information</h2>
+
+        <label for="medical">Allergies</label>
+        <input type="checkbox" id="medical" name="medical" />
+
+        <label for="medical">Diabeties</label>
+        <input type="checkbox" id="medical" name="medical" />
+
+        <label for="medical">High Blood Pressure</label>
+        <input type="checkbox" id="medical" name="medical" />
+        <br />
+        <label for="medical">Thyroid Condition</label>
+        <input type="checkbox" id="medical" name="medical" />
+
+        <label for="medical">Recent Fractures</label>
+        <input type="checkbox" id="medical" name="medical" />
+
+        <label for="medical">Recent Surgeries</label>
+        <input type="checkbox" id="medical" name="medical" />
+        <br />
+
+        <textarea
+          placeholder="Any other medical information..."
+          name="othermed"
+          id="othermed"
+          cols="50"
+          rows="10"
+        ></textarea>
+        <br />
+        <h2>Please Select the treatment you would like</h2>
+        <label for="treatment">Massage</label>
+        <input type="radio" id="treatment" name="treatment" />
+        <label for="treatment">Facials</label>
+        <input type="radio" id="treatment" name="treatment" />
+        <label for="treatment">Manicure or Pedicure</label>
+        <input type="radio" id="treatment" name="treatment" />
+        <label for="treatment">Waxing</label>
+        <input type="radio" id="treatment" name="treatment" />
+        <br />
+        <button class="btn" type="button">Book Now</button>
+      </form>
+    </div>
+  </body>
+</html>

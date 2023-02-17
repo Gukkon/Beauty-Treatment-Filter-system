@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+} */
+
+/* .add-to-crt {
+    margin-right: 50px;
+} */
+
+body {
+    background-color: rgb(146, 211, 241);
+}
+
+
+.form-input {
+    background-color: azure;
+    border: 1px solid azure;
+    border-radius: 10px;
+    width: 35%;
+    margin: 200px auto 0;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+h2 {
+    margin: 15px 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+input[type=checkbox] {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+input[type=text] {
+   margin-right: 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.age {
+    width: 22px;
+}
+
+.btn {
+    margin: 30px 0;
+    width: 40%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
