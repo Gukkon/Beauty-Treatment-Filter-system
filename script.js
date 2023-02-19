@@ -26,7 +26,7 @@ if (age < 16) {
     console.log('Please choose from any treatment');
 }
 
-let massage = [
+const massage = [
     {
         treatName: 'Full Body Massage',
         pregnant: false,
@@ -71,7 +71,7 @@ let massage = [
     },
 ];
 
-let facials = [
+const facials = [
     {
         treatName: 'Head in the Clouds',
         pregnant: false,
@@ -116,7 +116,7 @@ let facials = [
     },
 ];
 
-let manPed = [
+const manPed = [
     {
         treatName: 'Gel Type',
         pregnant: false,
@@ -149,7 +149,7 @@ let manPed = [
     },
 ];
 
-let wax = [
+const waxing = [
     {
         treatName: 'Chest Wax',
         pregnant: false,
