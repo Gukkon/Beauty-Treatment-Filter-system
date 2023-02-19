@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+treatment<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -29,58 +29,58 @@
       <form class="form-input">
         <h2>Contact Details</h2>
         <label for="fname">First Name:</label>
-        <input type="text" name="fname" id="fname" />
+        <input type="text" name="info" id="fname" />
         <label for="lname">Last Name:</label>
-        <input type="text" name="lname" id="lname" />
+        <input type="text" name="info" id="lname" />
         <br />
         <label for="age">Age:</label>
         <input class="age" type="text" name="age" maxlength="2" />
         <br />
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" />
+        <input type="email" name="info" id="email" />
 
         <h2>Gender</h2>
 
         <label for="gender">Male</label>
-        <input type="radio" id="male" name="male" />
+        <input type="radio" id="male" name="info" />
         <label for="gender">Female</label>
-        <input type="radio" id="female" name="female" />
+        <input type="radio" id="female" name="info" />
         <br />
 
         <h2>Pregnant</h2>
 
-        <input type="radio" id="preg-no" value="yes" name="pregnant" />
+        <input type="radio" id="preg-no" value="yes" name="info" />
         <label for="pregnant">No</label>
-        <input type="radio" id="preg-yes" value="no" name="pregnant" />
+        <input type="radio" id="preg-yes" value="no" name="info" />
         <label for="pregnant">Yes</label>
         <br />
 
         <h3>How far gone?</h3>
 
         <label for="length">0 - 3 Months</label>
-        <input type="radio" value="onea" name="length" id="first" />
+        <input type="radio" value="info" name="info" id="first" />
         <label for="length">3+ Months</label>
-        <input type="radio" value="twoa" name="length" id="second" />
+        <input type="radio" value="info" name="info" id="second" />
 
         <h2>Medical Information</h2>
 
         <label for="medical">Allergies</label>
-        <input type="checkbox" id="allergies" name="allergies" />
+        <input type="checkbox" id="allergies" name="info" />
 
         <label for="medical">Diabeties</label>
-        <input type="checkbox" id="diabeties" name="diabeties" />
+        <input type="checkbox" id="diabeties" name="info" />
 
         <label for="medical">High Blood Pressure</label>
-        <input type="checkbox" id="highBlood" name="highBlood" />
+        <input type="checkbox" id="highBlood" name="info" />
         <br />
         <label for="medical">Thyroid Condition</label>
-        <input type="checkbox" id="thyroid" name="thyroid" />
+        <input type="checkbox" id="thyroid" name="info" />
 
         <label for="medical">Recent Fractures</label>
-        <input type="checkbox" id="fractures" name="fractures" />
+        <input type="checkbox" id="fractures" name="info" />
 
         <label for="medical">Recent Surgeries</label>
-        <input type="checkbox" id="surgeries" name="surgeries" />
+        <input type="checkbox" id="surgeries" name="info" />
         <br />
 
         <textarea
@@ -93,18 +93,20 @@
         <br />
         <h2>Please Select the treatment you would like</h2>
         <label for="massage">Massage</label>
-        <input type="radio" id="massage" name="massage" />
+        <input type="radio" id="massage" name="info" />
         <label for="facials">Facials</label>
-        <input type="radio" id="facials" name="facials" />
+        <input type="radio" id="facials" name="info" />
         <label for="manPed">Manicure or Pedicure</label>
-        <input type="radio" id="manPed" name="manPed" />
+        <input type="radio" id="manPed" name="info" />
         <label for="Waxing">Waxing</label>
-        <input type="radio" id="waxing" name="waxing" />
+        <input type="radio" id="waxing" name="info" />
         <br />
 
         <!--The button should be a function and link all the javascript code for  the form!-->
 
-        <button class="btn" type="button onclick=">Book Now</button>
+        <button class="btn" type="button" onclick="myFunction()">
+          Book Now
+        </button>
       </form>
     </div>
   </body>
