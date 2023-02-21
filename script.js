@@ -2,7 +2,19 @@
 
 function fn1() {
 
-const massage = [
+} if (massage.checked===true) {
+    console.log('You selected massage');
+} else if (facials.checked===true) {
+    console.log('You selected facials');
+} else if (manPed.checked===true) {
+  console.log('You selected manicures and pedicures');
+} else if (waxing.checked===true) {
+  console.log('You selected waxing');
+}
+
+
+
+let massage = [
     {
         treatName: 'Full Body Massage',
         pregnant: false,
@@ -89,7 +101,7 @@ const massage = [
     },
 ];
 
-const facials = [
+let facials = [
     {
         treatName: 'Head in the Clouds',
         pregnant: false,
@@ -176,7 +188,7 @@ const facials = [
     },
 ];
 
-const manPed = [
+let manPed = [
     {
         treatName: 'Gel Type',
         pregnant: false,
@@ -239,7 +251,7 @@ const manPed = [
     },
 ];
 
-const waxing = [
+let waxing = [
     {
         treatName: 'Chest Wax',
         pregnant: false,
@@ -340,16 +352,6 @@ const waxing = [
 
 
 
-  if (massage.checked===true) {
-    console.log('You selected massage');
-} else if (facials.checked===true) {
-    console.log('You selected facials');
-} else if (manPed.checked===true) {
-  console.log('You selected manicures and pedicures');
-} else if (waxing.checked===true) {
-  console.log('You selected waxing');
-}
-}
 
 
 
