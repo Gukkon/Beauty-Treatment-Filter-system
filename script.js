@@ -2,6 +2,19 @@
 
 function fn1() {
 
+    let mass = document.getElementById("massage").value;
+    let face = document.getElementById("facials").value;
+    let manPed = document.getElementById("manPed").value;
+    let wax = document.getElementById("waxing").value;
+    let pregNo = document.getElementById("preg-no").value;
+    let pregYes = document.getElementById("preg-yes").value;
+    let allergies = document.getElementById("allergies").value;
+    let diabetes = document.getElementById("diabetes").value;
+    let highBlood = document.getElementById("highBlood").value;
+    let thyroid = document.getElementById("thyroid").value;
+    let fract = document.getElementById("fractures").value;
+    let surg = document.getElementById("surgeries").value;
+
 } if (massage.checked===true) {
     console.log('You selected massage');
 } else if (facials.checked===true) {
