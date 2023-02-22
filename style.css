@@ -8,17 +8,24 @@ hr {
     margin: 15px 0;
 }
 
+h1 {
+    margin-bottom: 5px;
+
+}
+
 #filtbtn {
-    margin: 5px 10px;
+    margin: 5px 5px;
     padding: 5px;
     height: 30px;
+    width: 180px;
 
 }
 
 .treat-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-around;
+    gap: 0.5rem;
 }
 
 .treatdiv   {
