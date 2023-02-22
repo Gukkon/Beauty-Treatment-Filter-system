@@ -11,104 +11,358 @@
     <title>Explore the different products</title>
   </head>
   <body>
-    <!-- <header class="flex">
-      <div>
-        <img class="logo" src="simplyanaislogo.png" alt="" />
+    <header>
+      <h2>Choose a treatment to book with us</h2>
+      <input id="filtbtn" type="submit" value="All" />
+      <input id="filtbtn" type="submit" value="Massage" />
+      <input id="filtbtn" type="submit" value="Facials" />
+      <input id="filtbtn" type="submit" value="Manicure/Pedicure" />
+      <input id="filtbtn" type="submit" value="Waxing" />
+      <hr />
+    </header>
+    <div class="treat-container">
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
       </div>
-
-      <div class="login-details">
-        <i class="fa fa-shopping-cart add-to-crt" aria-hidden="true"></i>
-        <label for="">Email:</label>
-        <input type="email" name="" id="" />
-        <label for="">Password:</label>
-        <input type="password" name="" id="" />
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
       </div>
-    </header> -->
-    <!-- Form for inputting booking information -->
-    <div class="form-container">
-      <form class="form-input">
-        <h2>Contact Details</h2>
-        <label for="fname">First Name:</label>
-        <input type="text" name="info" id="fname" />
-        <label for="lname">Last Name:</label>
-        <input type="text" name="info" id="lname" />
-        <br />
-        <label for="age">Age:</label>
-        <input class="age" type="text" name="age" maxlength="2" />
-        <br />
-        <label for="email">Email:</label>
-        <input type="email" name="info" id="email" />
-
-        <h2>Gender</h2>
-
-        <label for="gender">Male</label>
-        <input type="radio" id="male" name="gender" />
-        <label for="gender">Female</label>
-        <input type="radio" id="female" name="gender" />
-        <br />
-
-        <h2>Please Select the treatment you would like</h2>
-        <label for="mtreatment ">Massage</label>
-        <input type="radio" id="massage" name="treatment" />
-        <label for="ftreatment ">Facials</label>
-        <input type="radio" id="facials" name="treatment" />
-        <label for="treatment">Manicure or Pedicure</label>
-        <input type="radio" id="manPed" name="treatment" />
-        <label for="treatment">Waxing</label>
-        <input type="radio" id="waxing" name="treatment" />
-        <br />
-
-        <h2>Pregnant</h2>
-
-        <input type="radio" id="pregnant" value="no" name="pregnant" />
-        <label for="pregnant">No</label>
-        <input type="radio" id="pregnant" value="yes" name="pregnant" />
-        <label for="pregnant">Yes</label>
-        <br />
-
-        <!-- <h3>How far gone?</h3>
-
-        <label for="length">0 - 3 Months</label>
-        <input type="radio" value="info" name="info" id="first" />
-        <label for="length">3+ Months</label>
-        <input type="radio" value="info" name="info" id="second" /> -->
-
-        <h2>Medical Information</h2>
-
-        <label for="medical">Allergies</label>
-        <input type="checkbox" id="allergies" name="medical" />
-
-        <label for="medical">Diabeties</label>
-        <input type="checkbox" id="diabetes" name="medical" />
-
-        <label for="medical">High Blood Pressure</label>
-        <input type="checkbox" id="highBlood" name="medical" />
-        <br />
-        <label for="medical">Thyroid Condition</label>
-        <input type="checkbox" id="thyroid" name="medical" />
-
-        <label for="medical">Recent Fractures</label>
-        <input type="checkbox" id="fractures" name="medical" />
-
-        <label for="medical">Recent Surgeries</label>
-        <input type="checkbox" id="surgeries" name="medical" />
-        <br />
-
-        <textarea
-          placeholder="Any other medical information..."
-          name="othermed"
-          id="othermed"
-          cols="50"
-          rows="10"
-        ></textarea>
-        <br />
-
-        <!--The button should be a function and link all the javascript code for  the form!-->
-
-        <button class="btn" type="button" onclick="myFunction()">
-          Book Now
-        </button>
-      </form>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
+      <div class="treatdiv">
+        <div>
+          <img
+            class="image"
+            src="/images/fullbody.jpg"
+            alt="Client receiving full body massage"
+          />
+          <div class="content">
+            <h3>Treatment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis facilis dolores consequatur eveniet modi dolore maxime
+              neque maiores consequuntur laudantium aperiam ipsa voluptas aut
+              soluta, totam ipsam dolorum praesentium officia!
+            </p>
+            <input type="submit" value="Book Now" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
