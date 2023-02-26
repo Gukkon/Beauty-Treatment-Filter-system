@@ -4,29 +4,47 @@ let face = document.getElementById("face-btn");
 let manped = document.getElementById("manped-btn");
 let wax = document.getElementById("wax-btn");
 
+
+
+let waxing = document.getElementById("wax");
+let massage = document.getElementById("mass");
+let facial = document.getElementById("face");
+let manPed = document.getElementById("manped");
+
+// face.onclick = fn1();
+
+//   function fn1() {
+//   waxing.style.display = "block";
+//   facial.style.display = "none";
+//   manPed.style.display = "none";
+//   massage.style.display = "none";
+// }
+
+
+
 function fn1() {
-    if (all.onclick === true) {
-        document.getElementsByClassName('treatdiv').style.display = "block";
-    } else if (mass.onclick === true){
-        document.getElementById('mass').style.display = "block";
-        document.getElementById('face').style.display = "none";
-        document.getElementById('manped').style.display = "none";
-        document.getElementById('wax').style.display = "none";
-    } else if (face.onclick === true) {
-        document.getElementById('face').style.display = "block";
-        document.getElementById('mass').style.display = "none";
-        document.getElementById('manped').style.display = "none";
-        document.getElementById('wax').style.display = "none";
-    } else if (manped.onclick === true) {
-        document.getElementById('manped').style.display = "block";
-        document.getElementById('face').style.display = "none";
-        document.getElementById('mass').style.display = "none";
-        document.getElementById('wax').style.display = "none";
-    } else if (wax.onclick === true) {
-        document.getElementById('wax').style.display = "block";
-        document.getElementById('face').style.display = "none";
-        document.getElementById('manped').style.display = "none";
-        document.getElementById("mass").style.display = "none";      
+    if (all.click() === true) {
+        document.getElementsByClassName('treatdiv').click().style.display = "block";
+    } else if (mass.click() === true){
+        document.getElementById('mass').click().style.display = "block";
+        document.getElementById('face').click().style.display = "none";
+        document.getElementById('manped').click().style.display = "none";
+        document.getElementById('wax').click().style.display = "none";
+    } else if (face.click() === true) {
+        document.getElementById('face').click().style.display = "block";
+        document.getElementById('mass').click().style.display = "none";
+        document.getElementById('manped').click().style.display = "none";
+        document.getElementById('wax').click().style.display = "none";
+    } else if (manped.click() === true) {
+        document.getElementById('manped').click().style.display = "block";
+        document.getElementById('face').click().style.display = "none";
+        document.getElementById('mass').click().style.display = "none";
+        document.getElementById('wax').click().style.display = "none";
+    } else if (wax.click() === true) {
+        document.getElementById('wax').click().style.display = "block";
+        document.getElementById('face').click().style.display = "none";
+        document.getElementById('manped').click().style.display = "none";
+        document.getElementById("mass").click().style.display = "none";
     }
 }
 
