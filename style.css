@@ -13,12 +13,11 @@ h1 {
 
 }
 
-#filtbtn {
+.topbtn {
     margin: 5px 5px;
     padding: 5px;
     height: 30px;
     width: 180px;
-
 }
 
 .treat-container {
@@ -52,7 +51,7 @@ p {
 
 input[type=submit] {
     border: none;
-    width: 100px;
+    width: 120px;
     height: 30px;
     background-color: rgb(119, 107, 36);
     border-radius: 5px;
