@@ -8,25 +8,25 @@ function fn1() {
     if (all.onclick === true) {
         document.getElementsByClassName('treatdiv').style.display = "block";
     } else if (mass.onclick === true){
-        document.getElementById('mass-btn').style.display = "block";
-        document.getElementById('face-btn').style.display = "none";
-        document.getElementById('manped-btn').style.display = "none";
-        document.getElementById('wax-btn').style.display = "none";
+        document.getElementById('mass').style.display = "block";
+        document.getElementById('face').style.display = "none";
+        document.getElementById('manped').style.display = "none";
+        document.getElementById('wax').style.display = "none";
     } else if (face.onclick === true) {
-        document.getElementById('face-btn').style.display = "block";
-        document.getElementById('mass-btn').style.display = "none";
-        document.getElementById('manped-btn').style.display = "none";
-        document.getElementById('wax-btn').style.display = "none";
+        document.getElementById('face').style.display = "block";
+        document.getElementById('mass').style.display = "none";
+        document.getElementById('manped').style.display = "none";
+        document.getElementById('wax').style.display = "none";
     } else if (manped.onclick === true) {
-        document.getElementById('manped-btn').style.display = "block";
-        document.getElementById('face-btn').style.display = "none";
-        document.getElementById('mass-btn').style.display = "none";
-        document.getElementById('wax-btn').style.display = "none";
+        document.getElementById('manped').style.display = "block";
+        document.getElementById('face').style.display = "none";
+        document.getElementById('mass').style.display = "none";
+        document.getElementById('wax').style.display = "none";
     } else if (wax.onclick === true) {
-        document.getElementById('wax-btn').style.display = "block";
-        document.getElementById('face-btn').style.display = "none";
-        document.getElementById('manped-btn').style.display = "none";
-        document.getElementById('mass-btn').style.display = "none";
+        document.getElementById('wax').style.display = "block";
+        document.getElementById('face').style.display = "none";
+        document.getElementById('manped').style.display = "none";
+        document.getElementById("mass").style.display = "none";      
     }
 }
 
