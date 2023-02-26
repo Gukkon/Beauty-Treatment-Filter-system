@@ -6,7 +6,7 @@ let wax = document.getElementById("wax-btn");
 
 function fn1() {
     if (all.onclick === true) {
-        document.getElementsByClassNameByClassName('treatdiv').style.display = "block";
+        document.getElementsByClassName('treatdiv').style.display = "block";
     } else if (mass.onclick === true){
         document.getElementById('mass-btn').style.display = "block";
         document.getElementById('face-btn').style.display = "none";
