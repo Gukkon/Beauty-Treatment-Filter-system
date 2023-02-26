@@ -4,17 +4,29 @@ let face = document.getElementById("face-btn");
 let manped = document.getElementById("manped-btn");
 let wax = document.getElementById("wax-btn");
 
-fn1() {
-    if (all.clicked === true) {
-        document.getElementsByClassNameByclassName('treatdiv').style.display = "block";
-    } else if (mass.clicked === true){
+function fn1() {
+    if (all.onclick === true) {
+        document.getElementsByClassNameByClassName('treatdiv').style.display = "block";
+    } else if (mass.onclick === true){
         document.getElementById('mass-btn').style.display = "block";
-    } else if (face.clicked === true) {
+        document.getElementById('face-btn').style.display = "none";
+        document.getElementById('manped-btn').style.display = "none";
+        document.getElementById('wax-btn').style.display = "none";
+    } else if (face.onclick === true) {
         document.getElementById('face-btn').style.display = "block";
-    } else if (manped.clicked === true) {
+        document.getElementById('mass-btn').style.display = "none";
+        document.getElementById('manped-btn').style.display = "none";
+        document.getElementById('wax-btn').style.display = "none";
+    } else if (manped.onclick === true) {
         document.getElementById('manped-btn').style.display = "block";
-    } else if (wax.clicked === true) {
+        document.getElementById('face-btn').style.display = "none";
+        document.getElementById('mass-btn').style.display = "none";
+        document.getElementById('wax-btn').style.display = "none";
+    } else if (wax.onclick === true) {
         document.getElementById('wax-btn').style.display = "block";
+        document.getElementById('face-btn').style.display = "none";
+        document.getElementById('manped-btn').style.display = "none";
+        document.getElementById('mass-btn').style.display = "none";
     }
 }
 
