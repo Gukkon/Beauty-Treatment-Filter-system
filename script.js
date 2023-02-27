@@ -5,7 +5,7 @@ let manped = document.getElementById("manped-btn");
 let wax = document.getElementById("wax-btn");
 
 
-
+let alltreat = document.getElementsByClassName("treatdiv");
 let waxing = document.getElementById("wax");
 let massage = document.getElementById("mass");
 let facial = document.getElementById("face");
@@ -21,32 +21,80 @@ let manPed = document.getElementById("manped");
 // }
 
 
-
 function fn1() {
-    if (all.click() === true) {
-        document.getElementsByClassName('treatdiv').click().style.display = "block";
-    } else if (mass.click() === true){
-        document.getElementById('mass').click().style.display = "block";
-        document.getElementById('face').click().style.display = "none";
-        document.getElementById('manped').click().style.display = "none";
-        document.getElementById('wax').click().style.display = "none";
-    } else if (face.click() === true) {
-        document.getElementById('face').click().style.display = "block";
-        document.getElementById('mass').click().style.display = "none";
-        document.getElementById('manped').click().style.display = "none";
-        document.getElementById('wax').click().style.display = "none";
-    } else if (manped.click() === true) {
-        document.getElementById('manped').click().style.display = "block";
-        document.getElementById('face').click().style.display = "none";
-        document.getElementById('mass').click().style.display = "none";
-        document.getElementById('wax').click().style.display = "none";
-    } else if (wax.click() === true) {
-        document.getElementById('wax').click().style.display = "block";
-        document.getElementById('face').click().style.display = "none";
-        document.getElementById('manped').click().style.display = "none";
-        document.getElementById("mass").click().style.display = "none";
+    if (all) {
+      for(let i = 0; i < alltreat.length; i++) {
+         alltreat[i].style.display = "block";
+      }
     }
 }
+
+function fn2() {
+    if (mass) {
+        document.getElementById('mass').style.display = "block";
+        document.getElementById('face').style.display = "none";
+        document.getElementById('manped').style.display = "none";
+        document.getElementById('wax').style.display = "none";
+    }
+}
+  function fn3() {
+    if (face) {
+        document.getElementById('face').style.display = "block";
+        document.getElementById('mass').style.display = "none";
+        document.getElementById('manped').style.display = "none";
+        document.getElementById('wax').style.display = "none";
+    }
+  }
+    function fn4() {
+    if (manped) {
+        document.getElementById('manped').style.display = "block";
+        document.getElementById('face').style.display = "none";
+        document.getElementById('mass').style.display = "none";
+        document.getElementById('wax').style.display = "none";
+    }
+    }
+
+      function fn5() {
+    if (waxing) {
+        document.getElementById('wax').style.display = "block";
+        document.getElementById('face').style.display = "none";
+        document.getElementById('manped').style.display = "none";
+        document.getElementById('mass').style.display = "none";
+    }
+      }
+
+
+
+// TAKE TWO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// function fn1() {
+//     if (all === true) {
+//         document.getElementsByClassName('treatdiv').style.display = "block";
+//     } else if (mass === true){
+//         document.getElementById('mass').style.display = "block";
+//         document.getElementById('face').style.display = "none";
+//         document.getElementById('manped').style.display = "none";
+//         document.getElementById('wax').style.display = "none";
+//     } else if (face === true) {
+//         document.getElementById('face').style.display = "block";
+//         document.getElementById('mass').style.display = "none";
+//         document.getElementById('manped').style.display = "none";
+//         document.getElementById('wax').style.display = "none";
+//     } else if (manped === true) {
+//         document.getElementById('manped').style.display = "block";
+//         document.getElementById('face').style.display = "none";
+//         document.getElementById('mass').style.display = "none";
+//         document.getElementById('wax').style.display = "none";
+//     } else if (wax === true) {
+//         document.getElementById('wax').style.display = "block";
+//         document.getElementById('face').style.display = "none";
+//         document.getElementById('manped').style.display = "none";
+//         document.getElementById("mass").style.display = "none";
+//     }
+// }
+
+
+//TAKE THREE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 // function fn1() {
