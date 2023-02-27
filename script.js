@@ -31,35 +31,35 @@ function fn1() {
 
 function fn2() {
     if (mass) {
-        document.getElementById('mass').style.display = "block";
-        document.getElementById('face').style.display = "none";
-        document.getElementById('manped').style.display = "none";
-        document.getElementById('wax').style.display = "none";
+        massage.style.display = "block";
+        facial.style.display = "none";
+        manPed.style.display = "none";
+        waxing.style.display = "none";
     }
 }
   function fn3() {
     if (face) {
-        document.getElementById('face').style.display = "block";
-        document.getElementById('mass').style.display = "none";
-        document.getElementById('manped').style.display = "none";
-        document.getElementById('wax').style.display = "none";
+        facial.style.display = "block";
+        massage.style.display = "none";
+        manPed.style.display = "none";
+        waxing.style.display = "none";
     }
   }
     function fn4() {
     if (manped) {
-        document.getElementById('manped').style.display = "block";
-        document.getElementById('face').style.display = "none";
-        document.getElementById('mass').style.display = "none";
-        document.getElementById('wax').style.display = "none";
+        manPed.style.display = "block";
+        facial.style.display = "none";
+        massage.style.display = "none";
+        waxing.style.display = "none";
     }
     }
 
       function fn5() {
     if (waxing) {
-        document.getElementById('wax').style.display = "block";
-        document.getElementById('face').style.display = "none";
-        document.getElementById('manped').style.display = "none";
-        document.getElementById('mass').style.display = "none";
+        waxing.style.display = "block";
+        facial.style.display = "none";
+        manPed.style.display = "none";
+        massage.style.display = "none";;
     }
       }
 
