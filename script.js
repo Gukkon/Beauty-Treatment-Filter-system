@@ -6,19 +6,10 @@ let wax = document.getElementById("wax-btn");
 
 
 let alltreat = document.getElementsByClassName("treatdiv");
-let waxing = document.getElementById("wax");
-let massage = document.getElementById("mass");
-let facial = document.getElementById("face");
-let manPed = document.getElementById("manped");
-
-// face.onclick = fn1();
-
-//   function fn1() {
-//   waxing.style.display = "block";
-//   facial.style.display = "none";
-//   manPed.style.display = "none";
-//   massage.style.display = "none";
-// }
+let waxing = document.getElementsByClassName("wax");
+let massage = document.getElementsByClassName("mass");
+let facial = document.getElementsByClassName("face");
+let manPed = document.getElementsByClassName("manped");
 
 
 function fn1() {
