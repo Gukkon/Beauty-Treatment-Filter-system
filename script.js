@@ -1,16 +1,19 @@
+// Variables for my filter buttons that the user can select
+
 let all = document.getElementById("all-btn");
 let mass = document.getElementById("mass-btn");
 let face = document.getElementById("face-btn");
 let manped = document.getElementById("manped-btn");
 let wax = document.getElementById("wax-btn");
 
-
+// Variables for my treatment divs
 let alltreat = document.getElementsByClassName("treatdiv");
 let waxing = document.getElementsByClassName("wax");
 let massage = document.getElementsByClassName("mass");
 let facial = document.getElementsByClassName("face");
 let manPed = document.getElementsByClassName("manped");
 
+// Functions for each filter button to execute code that loops through each div to show the correct treatment selected and hide the ones the user doesn't want //
 
 function fn1() {
     if (all) {
@@ -88,34 +91,3 @@ function fn5() {
     }
   }
 }
-
-
-
-
-// TAKE TWO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-// function fn1() {
-//     if (all === true) {
-//         document.getElementsByClassName('treatdiv').style.display = "block";
-//     } else if (mass === true){
-//         document.getElementById('mass').style.display = "block";
-//         document.getElementById('face').style.display = "none";
-//         document.getElementById('manped').style.display = "none";
-//         document.getElementById('wax').style.display = "none";
-//     } else if (face === true) {
-//         document.getElementById('face').style.display = "block";
-//         document.getElementById('mass').style.display = "none";
-//         document.getElementById('manped').style.display = "none";
-//         document.getElementById('wax').style.display = "none";
-//     } else if (manped === true) {
-//         document.getElementById('manped').style.display = "block";
-//         document.getElementById('face').style.display = "none";
-//         document.getElementById('mass').style.display = "none";
-//         document.getElementById('wax').style.display = "none";
-//     } else if (wax === true) {
-//         document.getElementById('wax').style.display = "block";
-//         document.getElementById('face').style.display = "none";
-//         document.getElementById('manped').style.display = "none";
-//         document.getElementById("mass").style.display = "none";
-//     }
-// }
