@@ -26,15 +26,19 @@ All images are taken from PNG-EGG and have been placed in the treatment divs to 
 
 # Features
 
+- The page itself is using a flexbox layout and is fully responsive to different resolutions making accessibility easy for the user.
+
 - The website consists of a bright white background colour with a header section containing the title of the page which is telling the user what the page will consist of and this is a H1 tag.
 
 - Under the heading there are 5 buttons that display the treatment types for the user to select. They can choose to see all treatments on the page, or a specific one from massage, facials, manicures/pedicures or waxing. Once selected the page will only show them selected divs making the others "hidden" out of view.
 
-image.......
+![](/images/milestone2topbuttons.png)
 
 - There is a horizontal rule under the buttons just to separate them and the heading from the main container that holds all the treatments for easy viewing.
 
 - Each treatment is in its own div and contains the image of the treatment along with a short description, price and a book now button to allow the user to click on and book the treatment with the salon.
+
+![](/images/milestone2treatmentdiv.png) _Lorem ipsum used for testing purposes_
 
 # Future plans
 
@@ -42,7 +46,7 @@ The page is pretty basic for the time being. Working on Javascript for the first
 
 I also wanted to implement an add to cart section, so that the user can select multiple treatments and will then be added to a cart that will hold the selected treatments and tot up a running total for the user to then accept and allow the selected treatments to be paid for and booked. However my knowledge of Js isn't there yet to succeed in making this.
 
-Also I would add the correct images that correspond to the treatment selected instead of using one generic image to represent them all.
+Also I would add the correct images that correspond to the treatment selected instead of using one generic image to represent them all, plus sort out the content inside each div so that all buttons and paragraphs link up nicely instead of all over the place.
 
 ---
 
@@ -72,12 +76,12 @@ All 3 front-end languages were used on this project. HTML for content of the pag
 
 Plenty of testing was carried out whilst designing the website and this was done quite a bit on firefox Dev Tools. The Dev Tools helped me when finding out where errors were located when it came to position my treatment divs and positioning my text and content inside the divs.
 
-I used w3c validator to go through my page testing the HTML and CSS that I used to make sure that all was correct with no errors.
+I used w3c validator to go through my page testing the HTML and CSS that I used to make sure that all was correct with no errors. Regarding the error on the HTML side,the button worked fine whilst using Javascript and with CSS styles already implemented and me running out of time I decided to leave it as the "type" attribute.
 
 ## Home Page w3c Validator
 
-![](/images/1-12%20w3c%20validator%20results.png)
-![](/images/13-24%20w3c%20validator%20results.png)
+![](/images/milestone2htmltest.png) HTML testing
+![](/images/milestone2csstest.png) CSS testing
 
 ## JS Hint
 
@@ -85,11 +89,41 @@ This was used to test my Javascript code and the report returned no errors. Now 
 
 As the code became more clearer to read and understood, more testing was done through codepen using console log to see if the functions were responding to user button clicks and selections looping through correctly.
 
+![](/images/jshint.png) Javascript Testing
+
 ## Manual Testing
 
 Manual testing was done by me basically clicking on each filter button and making sure the correct treatment div was highlighted. This then gave me the confidence that I knew all functions were working correctly.
 
+### Massage Only
+
+![](/images/milestone2massageonly.png)
+
+### Facials Only
+
+![](/images/milestone2facialsonly.png)
+
+### Manicure/Pedicures Only
+
+![](/images/milestone2manpedonly.png)
+
+### Waxing Only
+
+![](/images/milestone2waxingonly.png)
+
 Layout testing was done to see how the page looked at different screen resolutions. This was done by me minimizing the viewport window and seeing if all content was visible and easy to read, still allowing the user to select the treatment they wish. As flexbox was used to style my page via CSS , this really helped with this and allowed my divs and top buttons to stack and wrap nicely allowing easy access for users to do what they need to do.
+
+### Main Desktop View
+
+![](/images/milestone2mainpagefullscreen.png)
+
+### Tablet View
+
+![](/images/tabletviewmainpage.png)
+
+### Mobile View
+
+![](/images/milestone2mobileview.png)
 
 As the page is pretty much that basic, they were the only manual testing I had to do. All passed and worked fine.
 
