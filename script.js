@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // Variables for my filter buttons that the user can select
 
 let all = document.getElementById("all-btn");
