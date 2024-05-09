@@ -1,15 +1,12 @@
 # Beauty Treatment Filter System
 
 [View the live project here](https://gukkon.github.io/Beauty-Treatment-Filter-system/)
-[View the live project here](https://gukkon.github.io/Beauty-Treatment-Filter-system/)
 
 ---
 
 Here is filter system to allow users to choose what treatment they would like to have within a certain beauty salon. The user will land on the page and choose from the following tabs (All, Massage, Facials, Manicures/Pedicures, Waxing) and the page will alter to only show the selected treatment. The treatments left on view allow the user to see what types of treatments under that heading there are, along with description, price and a book now link to show the user has booked the treatment.
 
 # User Experience
-
-** Please note that only the buttons on the top that links to the selected treatments work. The "Book Now" buttons do not link to any other page. **
 
 As mentioned above, the idea is to filter through the list of treatments the salon has to offer. Instead of scrolling through the full list, the user can click on one of the buttons at the top of the page and select the treatment they would like to see. This then breaks up the full list and only shows what the user wants to see. This allows a quicker and friendly user experience for the user to then select the right type of treatment without continuously scrolling wasting their time and maybe steering them away from the site altogether.
 
