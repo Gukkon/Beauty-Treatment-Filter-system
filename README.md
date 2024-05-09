@@ -4,6 +4,8 @@
 
 ---
 
+** The book now links do not go to any other page and are for placeholders only **
+
 Here is filter system to allow users to choose what treatment they would like to have within a certain beauty salon. The user will land on the page and choose from the following tabs (All, Massage, Facials, Manicures/Pedicures, Waxing) and the page will alter to only show the selected treatment. The treatments left on view allow the user to see what types of treatments under that heading there are, along with description, price and a book now link to show the user has booked the treatment.
 
 # User Experience
