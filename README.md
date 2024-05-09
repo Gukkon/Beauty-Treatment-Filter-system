@@ -1,6 +1,6 @@
 # Beauty Treatment Filter System
 
-[View the live project here](https://gukkon.github.io/Beauty-Treatment-Filter-system/)
+[View the live project here](https://gukkon.github.io/Beauty-Treatment-Filter-sytem/)
 
 ---
 
